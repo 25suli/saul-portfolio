@@ -1,9 +1,9 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+//import { useNavigate } from 'react-router-dom';
 import './Projects.css';
 
 function Projects() {
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
   const projectList = [
     { 
       id: 1, 
@@ -25,7 +25,7 @@ function Projects() {
       id: 3, 
       name: 'Guardian Arena VR', 
       description: 'Juego de acción VR , el cual nos sirvio para entender y aplicar los conocimientos adquiridos en la asignatura de Sistemas Inmersivos.', 
-      image: '/images/guardianTitle.jpg',
+      image: '/images/guardian01.jpg',
       technologies: ['Unity', 'VR']
     },
     { 
@@ -45,10 +45,11 @@ function Projects() {
     }
   ];
 
+  /*
   const handleViewMore = (id) => {
     navigate(`/projects/${id}`);
   };
-
+  */
   return (
     <div>
       <h1>Proyectos</h1>
