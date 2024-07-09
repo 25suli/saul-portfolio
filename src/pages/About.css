@@ -1,0 +1,65 @@
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+  }
+.profile-image {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0px;
+  }
+  
+  .summary {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .skills-tools {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .skills, .tools {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .skill span {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .skill-bar {
+    flex: 3;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .skill-level {
+    height: 10px;
+    background-color: #61dafb;
+  }
+  
+  .tools ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .tools li {
+    margin: 5px 0;
+  }
+  

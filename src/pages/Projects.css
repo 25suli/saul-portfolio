@@ -1,0 +1,52 @@
+.projects {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project {
+  background-color: #f4f4f4;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+
+.project h3 {
+  margin-top: 10px;
+}
+
+.project .technologies {
+  font-style: italic;
+  color: #555;
+}
+
+.project p {
+  margin: 10px 0;
+}
+
+.project button {
+  background-color: #61dafb;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.project button:hover:not(:disabled) {
+  background-color: #21a1f1;
+}
+
+.project button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
